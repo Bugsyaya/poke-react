@@ -1,0 +1,16 @@
+.pokedex {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.centerElement {
+    text-align: center;
+}
+
+.fullHeight {
+    height: 100%;
+}
+
+.pokemon {
+
+}
