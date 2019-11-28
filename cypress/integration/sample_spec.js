@@ -32,7 +32,7 @@ describe("Watch ", () => {
     cy.get("input").type("bug");
     //wait 500 to fetch request ends
     //TODO : find another way to wait for request to end
-    cy.wait(500);
+    cy.wait(800);
     cy.get("a")
       .its("length")
       .should("eq", 86);
